@@ -89,7 +89,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  padding: 8px 15px;
+  padding: 4px 7px;
   word-wrap: break-word;
   border-radius: 2px;
 }
@@ -279,7 +279,7 @@
   transform: translateX(-50%);
   transition: top 0.3s ease-in-out;
 }
-.ant-anchor-ink-ball.ant-ink-ball-visible {
+.ant-anchor-ink-ball.ant-anchor-ink-ball-visible {
   display: inline-block;
 }
 .ant-anchor-fixed .ant-anchor-ink .ant-anchor-ink-ball {
@@ -17657,13 +17657,11 @@ textarea.ant-pagination-options-quick-jumper input {
   color: rgba(0, 0, 0, 0.85);
   font-size: 12px;
 }
-.ant-popover-message .anticon {
-  color: #faad14;
-  font-size: 12px;
-}
 .ant-popover-message-icon {
   display: inline-block;
   margin-right: 8px;
+  color: #faad14;
+  font-size: 12px;
 }
 .ant-popover-buttons {
   margin-bottom: 4px;
